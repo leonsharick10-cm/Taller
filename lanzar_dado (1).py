@@ -54,6 +54,6 @@ def lanzar_dado():
     time.sleep(1)
     valor = random.randint(1, 6)
     mostrar_dado(valor)
-    print(f"Salió: {valor}")
+    print(f"El resultado de su lanzamiento fue: {valor}")
 
 lanzar_dado()
